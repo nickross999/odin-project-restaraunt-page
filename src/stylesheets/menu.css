@@ -1,0 +1,75 @@
+#content {
+    grid-area: content;
+    margin: 0 auto;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-mode {
+    background-color: var(--light-gray);
+    color: var(--brown);
+}
+
+.cafe-mode {
+    background-color: var(--yellow);
+    color: var(--brown);
+}
+
+.petit-mode {
+    background-color: var(--gray);
+    color: var(--dark-gray);
+}
+
+#menu-display {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+#menu-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    margin: 0 auto;
+    padding: 5px;
+    width: 50vw;
+    min-width: 370px;
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "price image"
+        "description image";
+    gap: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.item-title {
+    grid-area: title;
+}
+
+.item-price {
+    grid-area: price;
+}
+
+.item-description {
+    font-size: .75rem;
+    grid-area: description;
+}
+
+.menu-item-image {
+    width: 250px;
+    height: 250px;
+    grid-area: image;
+}

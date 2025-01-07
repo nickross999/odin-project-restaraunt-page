@@ -1,0 +1,46 @@
+header {
+    background-color: var(--pink);
+    width: 100%;
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-logo-image {
+    margin: 10px 0 5px 20px;
+    max-height: 100px;
+    max-width: 150px;
+    flex-grow: 1;
+}
+
+nav {
+    flex-grow: 19;
+}
+
+#nav-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-button {
+    border: 0;
+    width: 10vw;
+    min-width: 100px;
+    height: 5vh;
+    min-height: 50px;
+    border-radius: 10px;
+}
+
+#home {
+    background-color: var(--orange);
+}
+
+#kirby-cafe {
+    background-color: var(--yellow);
+}
+
+#kirby-cafe-petit {
+    background-color: var(--gray);
+}

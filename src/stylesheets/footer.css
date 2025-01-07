@@ -1,0 +1,6 @@
+footer {
+    grid-area: footer;
+    background-color: var(--pink);
+    width: 100%;
+    height: 100px;
+}
