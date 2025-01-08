@@ -22,7 +22,7 @@
     color: var(--dark-gray);
 }
 
-#menu-display {
+#menu-display, #about-display {
     text-align: center;
     margin-bottom: 30px;
     font-size: 2rem;

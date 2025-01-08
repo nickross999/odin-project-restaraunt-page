@@ -147,7 +147,7 @@ const Cafe = (function () {
     const getItemType = (item) => item.itemType;
 
     const buildContent = () => {
-        contentDiv.classList.add("cafe-mode"); //set cafe mode
+        contentDiv.className = "cafe-mode"; //set cafe mode
 
         const menuTitleDiv = document.createElement("div"); //build menu frame
         menuTitleDiv.setAttribute("id", "menu-display");

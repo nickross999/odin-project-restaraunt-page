@@ -31,6 +31,7 @@ nav {
     height: 5vh;
     min-height: 50px;
     border-radius: 10px;
+    position: relative;
 }
 
 #home {
@@ -43,4 +44,23 @@ nav {
 
 #kirby-cafe-petit {
     background-color: var(--gray);
+}
+
+.warp-star-image {
+    height: 30px;
+    position: absolute;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.invisible {
+    display: none;
 }
